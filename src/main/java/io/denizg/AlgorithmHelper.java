@@ -45,12 +45,12 @@ public class AlgorithmHelper {
             arr[k++] = (leftArr[i] <= rightArr[j]) ? leftArr[i++] : rightArr[j++];
         }
         
-        while (i < n1) arr[k++] = leftArr[i++];
-        
+        while (i < n1) {
+            arr[k++] = leftArr[i++];
+        }
+
         while (j < n2) {
-            arr[k] = rightArr[j];
-            j++;
-            k++;
+            arr[k++] = rightArr[j++];
         }
     }
 }
