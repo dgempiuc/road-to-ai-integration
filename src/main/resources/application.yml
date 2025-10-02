@@ -1,0 +1,11 @@
+server:
+  port: 8079
+
+api:
+  path:
+    tarih:
+      base: /tarih
+      gun-farki: /gun-farki
+    string:
+      base: /string
+      reverse: /reverse
